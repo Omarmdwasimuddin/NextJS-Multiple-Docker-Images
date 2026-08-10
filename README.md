@@ -29,6 +29,10 @@ docker run -p 3000:3000 nextjs-project-dockerize
 ```bash
 docker build -t nextjs-project-dockerize:12.111v .
 ```
+#### docker containters run 
+```bash
+docker run -p 3000:3000 nextjs-project-dockerize:12.111v
+```
 ---
 
 
