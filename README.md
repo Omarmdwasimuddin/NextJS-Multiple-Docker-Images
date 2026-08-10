@@ -24,6 +24,14 @@ docker run -p 3000:3000 nextjs-project-dockerize
 ```
 ---
 
+#### project home page er code e kichu update koro
+> new docker images build koro version add kore.
+```bash
+docker build -t nextjs-project-dockerize:12.111v .
+```
+---
+
+
 ####
 ```bash
 
