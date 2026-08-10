@@ -1,39 +1,55 @@
-## NextJS: Multiple Docker Images
+# NextJS: Multiple Docker Images
 
-#### Old docker images remove koro
+## ধাপ ১: পুরনো Docker images remove করা
+
+Old docker images remove করুন:
+
 ```bash
 docker system prune -a
 ```
+
 ---
 
-#### images build koro
+## ধাপ ২: প্রথম Image build করা
+
+Image build করুন:
+
 ```bash
 docker build -t nextjs-project-dockerize .
 ```
----
 
-#### check docker images
+Docker images check করুন:
+
 ```bash
 docker images
 ```
----
 
-#### docker containters run 
+Container run করুন:
+
 ```bash
 docker run -p 3000:3000 nextjs-project-dockerize
 ```
+
 ---
 
-#### project home page er code e kichu update koro
-> new docker images build koro version add kore.
+## ধাপ ৩: Code update করে নতুন Version build করা
+
+Project-এর home page-এর code-এ কিছু update করুন।
+
+তারপর নতুন version সহ image build করুন:
+
 ```bash
 docker build -t nextjs-project-dockerize:12.111v .
 ```
-#### docker containters run 
+
+নতুন version-এর container run করুন:
+
 ```bash
 docker run -p 3000:3000 nextjs-project-dockerize:12.111v
 ```
+
 ---
 
+## ফলাফল
 
-#### ekhon duita docker images kei brower e ekshathe run kora jabe.
+এখন দুইটা Docker image-ই একসাথে browser-এ run করা যাবে।
