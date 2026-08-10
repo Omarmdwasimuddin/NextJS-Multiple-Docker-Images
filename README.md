@@ -8,7 +8,7 @@ docker system prune -a
 
 #### images build koro
 ```bash
-docker build -t nextjs-multiple-docker-images .
+docker build -t nextjs-project-dockerize .
 ```
 ---
 
@@ -18,9 +18,9 @@ docker images
 ```
 ---
 
-#### run containters
+#### docker containters run 
 ```bash
-docker run -p 3000:3000
+docker run -p 3000:3000 nextjs-project-dockerize
 ```
 ---
 
