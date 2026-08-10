@@ -12,6 +12,12 @@ docker build -t nextjs-multiple-docker-images .
 ```
 ---
 
+#### check docker images
+```bash
+docker images
+```
+---
+
 ####
 ```bash
 
