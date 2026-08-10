@@ -1,1 +1,1 @@
-# NextJS-Multiple-Docker-Images
+# NextJS: Multiple Docker Images
