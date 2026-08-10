@@ -5,3 +5,15 @@
 docker system prune -a
 ```
 ---
+
+#### images build koro
+```bash
+docker build -t nextjs-project-multiple-images .
+```
+---
+
+####
+```bash
+
+```
+---
