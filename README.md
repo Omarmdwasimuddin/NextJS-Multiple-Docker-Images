@@ -32,8 +32,4 @@ docker build -t nextjs-project-dockerize:12.111v .
 ---
 
 
-####
-```bash
-
-```
----
+#### ekhon duita docker images kei brower e ekshathe run kora jabe.
